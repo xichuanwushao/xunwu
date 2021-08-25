@@ -5,6 +5,7 @@ import com.xichuan.repository.UserRepository;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 
 
 /**
@@ -17,6 +18,6 @@ public class UserRepositoryTest extends ApplicationTests {
     @Test
     public void testFindOne() {
         User user = userRepository.findOne(1L);
-        Assert.assertEquals("waliwali", user.getName());
+        Assert.assertEquals("wali", user.getName());
     }
 }
