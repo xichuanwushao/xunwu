@@ -30,7 +30,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter implements Application
     }
 
     /**
-     * 静态资源加载配置
+     * 静态资源加载配置 引入静态资源
      */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
