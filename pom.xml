@@ -15,6 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
+
 		<!-- thymeleaf 覆盖parent 选择自己的版本 -->
 		<thymeleaf.version>3.0.3.RELEASE</thymeleaf.version>
 		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
@@ -90,6 +91,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+
+
+
+
+
+		<!-- ModelMapper Simple, Intelligent, Object Mapping. -->
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>1.1.0</version>
 		</dependency>
 
 
